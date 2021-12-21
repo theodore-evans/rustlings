@@ -1,13 +1,12 @@
 // functions5.rs
 // Make me compile! Execute `rustlings hint functions5` for hints :)
 
-// I AM NOT DONE
-
 fn main() {
-    let answer = square(3);
-    println!("The answer is {}", answer);
+    let answer = square;
+    let real_answer = answer(3);
+    println!("The answer is {}", real_answer);
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+   num * num
 }
